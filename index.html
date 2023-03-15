@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap-dashbord</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="">
+        <header class="header py-3">
+          <nav class="navbar">
+            <div class="container-fluid bg-white">
+              <div class="d-flex flex-row align-items-center container-fluid">
+                <div class="header-logo">
+                  <a class="d-none d-lg-block" href="#"
+                    ><img src="./assets/img/logo.svg" alt="logo" width="100%"
+                  /></a>
+                  <a class="d-block d-lg-none" href="#">
+                    <img
+                      src="./assets/img/mobile-logo.png"
+                      alt="logo-mobile"
+                      width="50px"
+                    />
+                  </a>
+                </div>
+                <div class="header-form flex-grow-1 mx-3">
+                  <form class="d-flex" role="search">
+                    <div class="input-group">
+                      <span
+                        class="input-group-text border-end-0 bg-body-secondary"
+                        id="basic-addon1"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></span>
+                      <input
+                        type="form-control"
+                        class="form-control border-start-0 bg-body-secondary"
+                        placeholder="Prova a cercare: Lezioni di Lavarel"
+                        aria-label="Search"
+                        aria-describedby="basic-addon1"
+                      />
+                    </div>
+                  </form>
+                </div>
+                <div class="header-icon d-flex flex-row">
+                  <a
+                    href="#"
+                    class="navbar-toggler border-0 d-none d-lg-block"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarText"
+                    aria-controls="navbarText"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class=""><i class="fa-solid fa-list-ul"></i></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="navbar-toggler border-0 d-none d-lg-block"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarText"
+                    aria-controls="navbarText"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class=""
+                      ><i class="fa-solid fa-circle-question"></i
+                    ></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="navbar-toggler border-0 d-none d-lg-block"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarText"
+                    aria-controls="navbarText"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class=""
+                      ><i class="fa-solid fa-ellipsis-vertical"></i
+                    ></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="navbar-toggler border-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarText"
+                    aria-controls="navbarText"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="text-warning"
+                      ><i class="fa-solid fa-bell"></i
+                    ></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <main class="main">
+          <!-- aside -->
+          <div class="aside">
+            <div
+              class="aside-body h-100 d-flex flex-column justify-content-between align-items-center py-3"
+            >
+              <div class="aside-top d-flex flex-column align-items-center">
+                <ul>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-house text-white p-2"></i>
+                    <a class="d-none d-lg-block" href="#"><span>home</span></a>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-house text-white p-2"></i>
+                    <a class="d-none d-lg-block" href="#"><span>home</span></a>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <i class="fa-solid fa-house text-white p-2"></i>
+                    <a class="d-none d-lg-block" href="#"><span>home</span></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="aside-bottom d-flex align-items-center">
+                <ul>
+                  <li class="d-flex align-items-center">
+                    <div class="icon-list">
+                      <i class="fa-solid fa-house text-white p-2"></i>
+                    </div>
+                    <div class="link-list">
+                      <a class="d-none d-lg-block" href="#"
+                        ><span>Admin</span></a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- body -->
+          <div class="main-body">
+            <div class="main-header">
+              <div class="main-header-left"></div>
+              <div class="main-header-center"></div>
+              <div class="main-header-right"></div>
+            </div>
+            <div class="main-content">
+              <div class="main-content-left">
+                <div class="main-left-top"></div>
+                <div class="main-left-bottom"></div>
+              </div>
+              <div class="main-content-right">
+                <div class="main-right-top"></div>
+                <div class="main-right-bottom"></div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- botstrap-js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

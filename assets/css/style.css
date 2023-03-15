@@ -1,0 +1,33 @@
+li{
+   list-style: none;
+  
+   
+}
+ul{
+   padding: 0;
+}
+a{
+   color: #fff;
+   text-decoration: none;
+}
+
+.header{
+   height: 100px;
+   background-color: #F8F9FA;
+}
+.aside{
+   background-color: darkblue;
+   max-width: 50px;
+   height: calc(100vh - 100px );
+}
+
+ .aside-body{
+   color:red;
+ }
+/* media */
+
+ @media(min-width:1200px) {
+   .aside{
+      max-width: 150px;
+   }
+ }
