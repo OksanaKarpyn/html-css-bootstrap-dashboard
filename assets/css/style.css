@@ -12,22 +12,57 @@ a{
 }
 
 .header{
-   height: 100px;
+   height: 80px;
    background-color: #F8F9FA;
 }
+.main{
+   height: calc(100vh - 80px);
+   margin-top: 80px;
+}
 .aside{
-   background-color: darkblue;
-   max-width: 50px;
-   height: calc(100vh - 100px );
+   background-color: #051E34;
+   width: 50px;   
 }
 
  .aside-body{
-   color:red;
+   height: 100%;
  }
+
+ /* main-body */
+ .main-body{
+   background-color: darkolivegreen;
+    overflow: auto;
+ }
+
+ .badge{
+   background-color:#165BBA ;
+   color: #fff;
+   font-weight: 100;
+ }
+
+.fa-angles-right{
+   font-size: .8rem;
+}
+/* main-top */
+
+/* main-content-left-bottom */
+
+.table-title,
+.accordion-title,
+.form-title{
+   background-color: #F7F7F7;
+}
+/* main-content-right-top */
+.form-title,
+.table-title{
+   border:1px solid #CBCBCB;
+}
 /* media */
 
- @media(min-width:1200px) {
+@media only screen and (min-width:992px){
    .aside{
-      max-width: 150px;
+      width: 140px;
+      padding: 0 20px;
+    
    }
- }
+}
