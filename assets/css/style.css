@@ -21,7 +21,7 @@ a{
 }
 .aside{
    background-color: #051E34;
-   width: 50px;   
+   width: 100px;   
 }
 
  .aside-body{
@@ -30,8 +30,14 @@ a{
 
  /* main-body */
  .main-body{
-   background-color: darkolivegreen;
+   background-color: #F8F9FA;
     overflow: auto;
+ }
+.aside-body ul li{
+   padding: 10px;
+}
+ .aside-body ul li:hover{
+   background-color: darkgrey;
  }
 
  .badge{
@@ -39,10 +45,16 @@ a{
    color: #fff;
    font-weight: 100;
  }
-
+/* main-body */
 .fa-angles-right{
    font-size: .8rem;
 }
+
+.offcanvas-width{
+   /* width: 576px; */
+   --bs-offcanvas-width: 768px;
+}
+
 /* main-top */
 
 /* main-content-left-bottom */
@@ -54,8 +66,16 @@ a{
 }
 /* main-content-right-top */
 .form-title,
-.table-title{
+.table-title,
+.main-left-top,
+.main-left-bottom,
+.main-right-top,
+.main-right-bottom{
    border:1px solid #CBCBCB;
+}
+
+.accordion{
+   border-top:1px solid #CBCBCB ;
 }
 /* media */
 
